@@ -1,4 +1,4 @@
-a=[1,2,3,4,11,6,7,8,9]
+#a=[1,2,3,4,11,6,7,8,9]
 
 def find_max_value(array)
   i=0 
@@ -11,7 +11,5 @@ def find_max_value(array)
       i+=1 
     end 
   end 
-  puts max_value
+  return max_value
 end
-
-find_max_value(a)
